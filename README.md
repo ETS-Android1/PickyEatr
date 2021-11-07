@@ -8,11 +8,17 @@ PickyEatr is an app that we developed that uses Optical Character Recognition an
 
 ## How we built it
 The project involves 2+1 fundamental modules: Image Processing (contours, color detection, etc.) and OCR (Optical Character Recognition)
-###Initial Contouring
+
+Initial Contouring
 After contours are extracted, we notice a lot of tiny contours all over the image due to color shades that our threshold method will have highlighted. To eliminate this noise and filter down to large contours (the assumption here is that the larger contours would be the highlighted portions), we can perform some statistical analysis on the area of the contours to keep only those outside a specific number of standard deviations from the mean(i.e. all contours 4 standard deviations away from the mean).
 
+![Screenshot_20211107-054701 (1)](https://user-images.githubusercontent.com/89934290/140654578-d32cb6de-3b36-4a6a-bf71-b59cb9071c5a.png)
+
+![Screenshot_20211107-054701 (2)](https://user-images.githubusercontent.com/89934290/140654583-6b0108d3-895c-4d82-858e-99790f369827.png)
+
+
 ## Challenges we ran into
-###Post OCR “contouring”
+Post OCR “contouring”
 Contouring, essentially, is boundary detection (edge detection but finding closed curves). Through the method in this section, instead of performing an explicit boundary-detection step, we find the highlighted boundary implicitly — it seems to be a better technique to deal with our problem which is the initial task. Rather than deciding what is highlighted right off the image as a human eye would, the computer has another advantage: computation power. Therefore, we can approach this less intuitively: OCR first, and then determine, word-by-word, if it is ‘highlighted’ or not. We can do this by using our color-specific thresholding once again. Firstly, using Google’s API, alongside the text, we can also extract a boundary-box around each word OCR-ed.
 
 ## Accomplishments that we're proud of
