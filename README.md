@@ -1,6 +1,6 @@
 UBHacks - Best 'Lead-a-newebie' Prize
 
-#PickyEatr
+# PickyEatr
 Created by Tanay Patil, Abijit, Girish Krishnan
 For more info, check out [our devpost](https://devpost.com/software/pickyeatr)
 
