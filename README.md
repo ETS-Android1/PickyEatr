@@ -1,4 +1,4 @@
-UBHacks - Best 'Lead-a-newbie' Prize
+UBHacks - Best 'Lead-a-Newbie' Prize
 
 # PickyEatr
 Created by Tanay Patil, Abijit, Girish Krishnan
