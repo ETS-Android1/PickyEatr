@@ -1,4 +1,8 @@
-Created by Tanay Patil, Abijit, Gaurab Das, Girish Krishnan for UBHacks
+UBHacks - Best 'Lead-a-newebie' Prize
+
+#PickyEatr
+Created by Tanay Patil, Abijit, Girish Krishnan
+For more info, check out [our devpost](https://devpost.com/software/pickyeatr)
 
 ## Inspiration
 We had a ton of friends, including ourselves, who faced this problem on a daily basis and when we saw a section dedicated to this in UB Hacking registration form asking about people's dietary wants, we realized this had to be made!
